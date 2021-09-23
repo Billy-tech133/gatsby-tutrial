@@ -14,6 +14,7 @@ const example = ({ data }) => {
       <h2>Hi from example page</h2>
       <Header />
       <ComponentName />
+
       <h5>author: {author}</h5>
     </Layout>
   )
