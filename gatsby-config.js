@@ -31,5 +31,12 @@ module.exports = {
         path: `${__dirname}/src/posts/`,
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `xxrjz3rvxmmr`,
+        accessToken: `gVAsKNzJHq9Z3tVH7O74nxQTQk2PJP761Gh9n-ymZbM`,
+      },
+    },
   ],
 }
